@@ -1,0 +1,162 @@
+html{
+	height: 100%;
+}
+body{
+	margin:0;
+	height: 100%;
+	background: #000;
+	-webkit-font-smoothing: antialiased;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+img {
+	width: 100%;
+}
+@font-face {
+  font-family: 'Californian-Display';
+  src: url('../fonts/Californian-DisplayRoman.eot');
+  src: url('../fonts/Californian-DisplayRoman.eot?#iefix') format('embedded-opentype'), url('../fonts/Californian-DisplayRoman.woff') format('woff'), url('../fonts/Californian-DisplayRoman.ttf') format('ttf'), url('../fonts/Californian-DisplayRoman.svg#Californian-DisplayRoman') format('svg');
+}
+@font-face {
+  font-family: 'Californian-Middle';
+  src: url('../fonts/Californian-MiddleItalic.eot');
+  src: url('../fonts/Californian-MiddleItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Californian-MiddleItalic.woff') format('woff'), url('../fonts/Californian-MiddleItalic.ttf') format('ttf'), url('../fonts/Californian-MiddleItalic.svg#Californian-MiddleItalic') format('svg');
+}
+.clear {
+	content: "";
+	display: table;
+	clear: both;
+}
+#menu {
+	position: fixed;
+	height: 100%;
+	background: #fff;
+	width: 40%;
+	min-width: 400px;
+	max-width: 540px;
+	font-family: 'Californian-Middle';
+}
+#header {
+	margin-top: 190px;
+	margin-left: 90px;
+	font-size: 35px;
+	letter-spacing: 0.36px;
+	line-height: 40px;
+	color: #231F20;
+}
+.logo{
+	font-family: 'Californian-Display';
+}
+.subheading {
+	font-size: 18px;
+}
+#nav {
+	margin: 161px;
+	margin-left: 90px;
+	color: #393939;
+	font-size: 19px;
+	letter-spacing: 0.34px;
+	line-height: 34px;
+}
+#nav li {
+	position: relative;
+    display: table;
+    padding: 0 6px;
+    margin-left: -6px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#nav .text {
+	position: relative;
+	z-index: 2;
+}
+#nav .highlight{
+	position: absolute;
+	height: 46%;
+	width: 100%;
+	background: #FFE000;
+	top:39%;
+	left: -100%;
+	z-index: 1;
+	transition: left 0.4s;
+}
+
+#nav li.hover .highlight {
+	left: 0%;
+}
+#content{
+	width: 60%;
+	max-width: calc(100% - 400px);
+	min-width: calc(100% - 540px);
+    position: absolute;
+    right: 0;
+    height: 100%;
+    top: 0;
+}
+.wrapper{
+    margin: 10px;
+}
+#content .wrapper > div {
+	display: none;
+}
+#content .wrapper #LVX {
+	display: block;
+}
+.wrapper img {
+	margin-bottom: 10px;
+}
+.wrapper img:last-child{
+	margin-bottom: 0;
+}
+#connect-links{
+	margin-left: 86px;
+}
+#connect-links a {
+	width: 25px;
+	height: 25px;
+	display: block;
+    float: left;
+    margin-right: 10px;
+}
+@media screen and (max-width:600px){
+	#menu{
+		width: 100%;
+		height: 21%;
+		z-index: 3;
+		min-width: 100%;
+		max-width: 100%;
+	}
+	#header{
+		margin-left: 11px;
+		margin-top: 10px;
+		font-size: 25px;
+		line-height: 22px;
+	}
+	.subheading {
+		font-size: 18px;
+	}
+	#nav {
+		margin: 7px;
+		margin-left: 18px;
+		font-size: 15px;
+	}
+	#nav li {
+		float: left;
+		margin-right: 10px;
+	}
+	#content {
+		width: 100%;
+		height: 70%;
+		top: 21%;
+		min-width: 100%;
+		max-width: 100%;
+	}
+	#connect-links{
+	    position: absolute;
+    	top: 8px;
+    	right: 0px;
+	}
+}

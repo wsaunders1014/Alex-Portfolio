@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>envelope</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="envelope" fill-rule="nonzero" fill="#EF402E">
+            <path d="M44.9928,0 C20.1483,0 0,20.1411 0,44.9928 C0,69.8373 20.1483,89.9856 44.9928,89.9856 C69.8409,89.9856 89.9856,69.8373 89.9856,44.9928 C89.9856,20.1411 69.8445,0 44.9928,0 Z M71.2368,63.7452 L18.7488,63.7452 L18.7488,38.7279 L37.1043,51.4548 C39.44574,53.05437 42.22656,53.74701 44.99334,53.75754 C47.74608,53.7505083 50.5269,53.054415 52.87185,51.4548 L71.23725,38.7279 L71.2368,63.7452 Z M71.2368,31.4298 L49.4541,46.5228 C48.38886,47.271627 46.69785,47.76381 44.98929,47.75679 C43.27011,47.7638208 41.5791,47.271636 40.51737,46.5228 L18.74817,31.437 L18.74817,26.24094 L71.23617,26.24094 L71.2368,31.4298 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
